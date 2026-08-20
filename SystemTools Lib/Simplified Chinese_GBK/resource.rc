@@ -1,0 +1,31 @@
+IDI_ICON1 ICON "favicon.ico"
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     4,0,0,0
+PRODUCTVERSION  4,0,0,0
+FILEFLAGSMASK   0x3fL
+FILEFLAGS       0x0L
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VFT_APP
+FILESUBTYPE     0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName",      "自研"
+            VALUE "FileDescription",  "便捷系统工具箱 v4.0"
+            VALUE "FileVersion",      "4.0"
+            VALUE "InternalName",     "SystemTools"
+            VALUE "LegalCopyright",   "此物不需版权"
+            VALUE "OriginalFilename", "SystemTools.exe"
+            VALUE "ProductName",      "系统工具箱"
+            VALUE "ProductVersion",   "4.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
