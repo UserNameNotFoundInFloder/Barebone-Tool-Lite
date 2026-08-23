@@ -4,7 +4,6 @@
 编码：Simplified Chinese (GBK)（注：编者不会在意你改变语言）
 
 请不要删除任何除 系统工具箱.exe 以外的文件，不要把 exe 移出，否则无法使用。
-如您不小心删除了 exe，可将 Tools 目录下的 恢复.exe 复制到主目录下启动。
 
 源码完全开源，欢迎使用、修改或分享。
 
@@ -20,7 +19,6 @@ Copyright: Freely redistributable, no restrictions.
 Encoding: Simplified Chinese (GBK) (Note: the author does not mind if you change the language)
 
 Please do not delete any files except 系统工具箱.exe itself, and do not move the .exe out of its folder, otherwise the program will not work.
-If you accidentally delete the exe, copy 恢复.exe from the Tools directory to the main directory and run it.
 
 The source code is fully open source – feel free to use, modify, or share it.
 
@@ -36,7 +34,6 @@ Urheberrecht: Frei weitergebbar, ohne Einschränkungen.
 Kodierung: Simplified Chinese (GBK) (Hinweis: Der Autor hat nichts dagegen, wenn Sie die Sprache ändern)
 
 Bitte löschen Sie keine Dateien außer 系统工具箱.exe selbst, und verschieben Sie die .exe nicht aus dem Ordner, da das Programm sonst nicht funktioniert.
-Sollten Sie die .exe versehentlich löschen, kopieren Sie 恢复.exe aus dem Tools-Verzeichnis in das Hauptverzeichnis und starten Sie es.
 
 Der Quellcode ist vollständig Open Source – Sie können ihn gerne nutzen, ändern oder weitergeben.
 
