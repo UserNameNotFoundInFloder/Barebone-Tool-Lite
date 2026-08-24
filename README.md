@@ -14,7 +14,7 @@
 
 编译与运行：
 环境要求：操作系统为 Windows（因为调用了 taskkill、shutdown、_popen 等 Windows 专用 API）。编译器需支持 C++17 标准，如 MSVC 或 MinGW-w64。所有依赖项（DownLoad.h 及所需 DLL）均已包含在项目中，无需额外配置。
-编译命令示例：使用 MSVC 时，在开发者命令提示符中执行 cl /EHsc /std:c++17 SystemTools.cpp。使用 MinGW-w64 时，执行 g++ -std=c++17 SystemTools.cpp -o SystemTools.exe。若 DownLoad.h 不在当前目录，请添加 -I 包含路径并链接相应库。
+编译命令示例：仅在使用 MinGW-w64 时，执行 g++ -std=c++17 SystemTools.cpp -o SystemTools.exe -I curl-8.21.0_7-win64-mingw/include -L curl-8.21.0_7-win64-mingw/lib -lcurl -lws2_32 -lwldap32 -lbcrypt -lDownloadLib。
 
 使用方法：
 运行编译生成的 SystemTools.exe，根据主菜单提示输入数字 1 到 8 选择功能。各功能会进一步提示输入参数，如时间、路径、PID 等，按提示操作即可。
@@ -43,7 +43,7 @@ Exit: Quit the program.
 
 Compilation and execution:
 System requirements: Windows OS (since it uses Windows‑specific APIs like taskkill, shutdown, and _popen). A C++17‑compatible compiler such as MSVC or MinGW‑w64 is required. All dependencies (DownLoad.h and the required DLLs) are already included in the project; no additional setup is needed.
-Compilation examples: With MSVC, run cl /EHsc /std:c++17 SystemTools.cpp in a Developer Command Prompt. With MinGW‑w64, run g++ -std=c++17 SystemTools.cpp -o SystemTools.exe. If DownLoad.h is not in the current directory, add the appropriate -I include path and link any necessary libraries.
+Compilation examples: With MinGW‑w64, run g++ -std=c++17 SystemTools.cpp -o SystemTools.exe -I curl-8.21.0_7-win64-mingw/include -L curl-8.21.0_7-win64-mingw/lib -lcurl -lws2_32 -lwldap32 -lbcrypt -lDownloadLibe. 
 
 Usage:
 Run the compiled SystemTools.exe, then enter a number from 1 to 8 according to the main menu prompts. Each function will ask for further parameters (time, path, PID, etc.) as needed.
@@ -72,7 +72,7 @@ Beenden: Beendet das Programm.
 
 Kompilierung und Ausführung:
 Systemanforderungen: Windows-Betriebssystem (da Windows-spezifische APIs wie taskkill, shutdown und _popen verwendet werden). Ein C++17-kompatibler Compiler wie MSVC oder MinGW‑w64 ist erforderlich. Alle Abhängigkeiten (DownLoad.h und die benötigten DLLs) sind bereits im Projekt enthalten; keine zusätzliche Konfiguration erforderlich.
-Kompilierungsbeispiele: Mit MSVC führen Sie im Developer Command Prompt cl /EHsc /std:c++17 SystemTools.cpp aus. Mit MinGW‑w64 verwenden Sie g++ -std=c++17 SystemTools.cpp -o SystemTools.exe. Falls DownLoad.h nicht im aktuellen Verzeichnis liegt, fügen Sie den entsprechenden -I-Einbindepfad hinzu und linken Sie gegebenenfalls erforderliche Bibliotheken.
+Kompilierungsbeispiele: Mit MinGW‑w64 verwenden Sie g++ -std=c++17 SystemTools.cpp -o SystemTools.exe -I curl-8.21.0_7-win64-mingw/include -L curl-8.21.0_7-win64-mingw/lib -lcurl -lws2_32 -lwldap32 -lbcrypt -lDownloadLib. 
 
 Verwendung:
 Führen Sie die kompilierte SystemTools.exe aus und geben Sie dann gemäß dem Hauptmenü eine Zahl von 1 bis 8 ein. Jede Funktion fragt je nach Bedarf weitere Parameter ab (Zeit, Pfad, PID usw.).
