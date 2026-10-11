@@ -43,7 +43,7 @@ Exit: Quit the program.
 
 Compilation and execution:
 System requirements: Windows OS (since it uses Windows‑specific APIs like taskkill, shutdown, and _popen). A C++17‑compatible compiler such as MSVC or MinGW‑w64 is required. All dependencies (DownLoad.h and the required DLLs) are already included in the project; no additional setup is needed.
-Compilation examples: With MinGW‑w64, run g++ -std=c++17 SystemTools.cpp -o SystemTools.exe -I curl-8.21.0_7-win64-mingw/include -L curl-8.21.0_7-win64-mingw/lib -lcurl -lws2_32 -lwldap32 -lbcrypt -lDownloadLibe. 
+Compilation examples: With MinGW‑w64, run g++ -std=c++17 SystemTools.cpp -o SystemTools.exe -I curl-8.21.0_7-win64-mingw/include -L curl-8.21.0_7-win64-mingw/lib -lcurl -lws2_32 -lwldap32 -lbcrypt -lDownloadLib. 
 
 Usage:
 Run the compiled SystemTools.exe, then enter a number from 1 to 8 according to the main menu prompts. Each function will ask for further parameters (time, path, PID, etc.) as needed.
