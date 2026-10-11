@@ -1,4 +1,4 @@
-# 系统工具箱 v4.0 / System Tools v4.0 / System-Toolbox v4.0
+# 系统工具箱 v1.2.1 / System Tools v1.2.1 / System-Toolbox v1.2.1
 
 ## 中文版 (Chinese)
 
